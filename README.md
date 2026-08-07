@@ -1,4 +1,4 @@
-# F.E.A.R.-Better-AI-Mod-ALPHA-
+# F.E.A.R. BetterAI Mod (ALPHA)
 # Video: [Gameplay V.7](https://www.youtube.com/watch?v=AuuXsP5BSTQ&t=497s)
 
 **(Compatibility: Main game only, not the expansions. EchoPatch is supported.)**
