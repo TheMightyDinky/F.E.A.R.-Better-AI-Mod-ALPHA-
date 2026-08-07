@@ -3,6 +3,7 @@
 
 **(Compatibility: Main game only, not the expansions. EchoPatch is supported.)**
 This is pretty much the final product; remaining bugs are most likely engine limitations. Feedback is still welcome if you think something could improve the experience.
+I am usually more active on ModDB and NexusMods. Do not expect me to reply to you extremely fast if you try contacting me on GitHub.
 
 ---
 ## What is this mod supposed to do?
