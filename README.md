@@ -1,4 +1,3 @@
-<p align="center">
 # F.E.A.R.-Better-AI-Mod-ALPHA-
 # Video: [Gameplay V.7](https://www.youtube.com/watch?v=AuuXsP5BSTQ&t=497s)
 
@@ -109,7 +108,3 @@ I welcome criticism and don't mind it at all, especially from other modders who 
 Realistically I might not have time to make this fully polished.
 If you use the shared database and build something better, I'd love to see it; keep the proposals coming.
 I've tested across 5 full playthroughs, including 3 complete runs on "Extreme" difficulty, to confirm the mod is stable and beatable at its hardest setting, not just balanced on paper. Hopefully this brings some inspiration to other modders who can take it further than I did.
-</p>
-<p align="center">
-<img width="422" height="330" alt="9034f15596ef20c29926e3b5d50e612c" src="https://github.com/user-attachments/assets/3333aa01-45e3-4d2d-999e-6257f0314a08" />
-</p>
