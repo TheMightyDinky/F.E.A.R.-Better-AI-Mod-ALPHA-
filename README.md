@@ -56,9 +56,7 @@ Pretty different. Enemies are more dynamic and tactical, roughly balanced 50/50 
 * Fixed suicidal enemy pathing (GoToTarget), now used intentionally for charging and flanking.
 * Fixed grenade spam.
 * Assorted minor bugs.
-
 ---
-
 ## Under the hood
 This isn't just difficulty scaling. Sensors have been drastically changed across the entire system, not just individual enemy vision, so reactions and coordination happen in true real time. Goal priorities were also reweighted relative to each other (aggressive goals like Charge value meaningfully higher than defensive ones like Cover), so the AI's aggressive bias is built into the actual decision math, not just surface-level number bumps.
 
