@@ -35,6 +35,7 @@ Pretty different. Enemies are more dynamic and tactical, roughly balanced 50/50 
 
 ---
 ## Features
+```
 * **Agile Movement:** Fast upright side-steps to dodge bullets while still aiming and firing at you, plus more frequent precise dodge rolls.
 * **Less pain reaction:** Enemies flinch less from gunfire or melee.
 * **More coordination:** They stick closer to their heavy units to set up ambushes.
@@ -54,14 +55,15 @@ Pretty different. Enemies are more dynamic and tactical, roughly balanced 50/50 
 * **Improved Stealth:** Soldiers can be knocked out easily with melee, and others won't get alerted unless they're close or see you directly. (Technically a bug, but it changes gameplay in an interesting way.)
 * **Real Difficulty Scaling:** "Low" through "Extreme" now genuinely change the experience; don't waste medkits, you'll need them.
 * **Efficient:** One player reported hitting 4K/120fps at only 50W power draw; worth checking on your own setup too.
-  
+```
 ---
 ## Fixed from earlier versions
+```
 * Removed repetitive dialogue spam.
 * Fixed suicidal enemy pathing (GoToTarget), now used intentionally for charging and flanking.
 * Fixed grenade spam.
 * Assorted minor bugs.
-  
+```
 ---
 ## Under the hood
 This isn't just difficulty scaling. Sensors have been drastically changed across the entire system, not just individual enemy vision, so reactions and coordination happen in true real time. Goal priorities were also reweighted relative to each other (aggressive goals like Charge value meaningfully higher than defensive ones like Cover), so the AI's aggressive bias is built into the actual decision math, not just surface-level number bumps.
@@ -69,7 +71,7 @@ This isn't just difficulty scaling. Sensors have been drastically changed across
 ---
 ## Known Bugs
 These mostly come from pushing the AI past its original limits, which makes things a little unstable. I've fixed what I could, but some of these might not be fixable without reverting parts back to vanilla. None of them are serious; the AI improvements are worth it.
-
+```
 * Bodyfall sound occasionally missing.
 * WaterSplash sound occasionally not triggering (likely same root cause as above).
 * Because of the Bodyfall bug, an NPC may not react when a nearby comrade is taken down by melee from behind. (Some players might actually like this; makes stealth more viable)
@@ -80,7 +82,7 @@ These mostly come from pushing the AI past its original limits, which makes thin
 * Some animations/cutscenes may not always play correctly.
 * Very rarely, enemies may take extra hits to go down.
 * The known "First Encounter" window-transition bug (present in vanilla too) can still occur; not caused by this mod. Try switching weapons or toggling VSync if it happens.
-
+```
 ---
 ## For modders
 Happy to share the underlying database for anyone who wants to build on this or fix what I couldn't. Grab "FEAR Public Tools v2" to get started. Folders I worked in while building this:
